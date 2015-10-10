@@ -4,9 +4,9 @@ curry
 debounce
 x - flatten
 x - flatten-thunk
-invert-tree
+x- invert-tree
 jasmine-asynk
-map
+x- map
 memoize
 merkle
 middleware
