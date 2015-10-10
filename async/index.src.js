@@ -4,7 +4,6 @@ function log(msg){
 }
 
 export function sequence(thunks){
-
   return function(done){
     let ctr = 0;
     function advance(data){
@@ -23,7 +22,6 @@ export function sequence(thunks){
     }
     advance();
   };
-
 }
 
 export function parallel(thunks){
@@ -42,7 +40,8 @@ export function parallel(thunks){
         }
       }
     }
-    thunks.forEach((thunk, i) => thunk((err, res) => andThen(i, err, res)));
+    thunks.forEach((thunk, i) =>
+      thunk((err, res) => andThen(i, err, res)));
   };
 }
 

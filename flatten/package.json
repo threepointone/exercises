@@ -2,5 +2,8 @@
   "private": true,
   "scripts": {
     "test": "node ../node_modules/mocha/bin/mocha"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.25"
   }
 }
