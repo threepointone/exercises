@@ -15,4 +15,4 @@ once
 sort
 throttle
 throttle-promises
-value
+x - value
