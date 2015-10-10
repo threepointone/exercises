@@ -9,7 +9,7 @@ jasmine-asynk
 x - map
 x - memoize
 merkle
-middleware
+x - middleware
 morse-code
 once
 sort
