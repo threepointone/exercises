@@ -4,10 +4,10 @@ curry
 debounce
 x - flatten
 x - flatten-thunk
-x- invert-tree
+x - invert-tree
 jasmine-asynk
-x- map
-memoize
+x - map
+x - memoize
 merkle
 middleware
 morse-code
