@@ -12,7 +12,11 @@ merkle
 x - middleware
 morse-code
 x - once
-sort
+x - sort
 throttle
 throttle-promises
 x - value
+
+
+
+ - more sort/search algorithms
