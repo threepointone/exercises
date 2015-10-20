@@ -11,7 +11,7 @@ x - memoize
 merkle
 x - middleware
 morse-code
-once
+x - once
 sort
 throttle
 throttle-promises

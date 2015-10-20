@@ -1,8 +1,3 @@
-function log(msg){
-  console.log( msg !== undefined ? msg : this);
-  return this;
-}
-
 export function sequence(thunks){
   return function(done){
     let ctr = 0;
